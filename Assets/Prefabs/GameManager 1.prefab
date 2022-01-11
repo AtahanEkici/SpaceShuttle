@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1975876428377395893
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1975876428377395883}
+  - component: {fileID: 1975876428377395892}
+  m_Layer: 0
+  m_Name: GameManager 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1975876428377395883
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975876428377395893}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1975876428377395892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975876428377395893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6224fc56502a3184180886da78258db0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Score: 0
+  BestScore: 0
+  shootAmmo: 0
+  randLevel: 0
+  Player: {fileID: 0}
+  GameOverScreen: {fileID: 0}
+  ScoreAndNextLevelScreen: {fileID: 0}
+  StartScreen: {fileID: 0}
+  gameScoreScreen: {fileID: 0}
+  gameCamera: {fileID: 0}
+  preCamera: {fileID: 0}
+  score: {fileID: 0}
+  bestScoreText: {fileID: 0}
+  _bestScoreText: {fileID: 0}
+  levels:
+  - {fileID: 3763445707276453511, guid: 11443faf89d61734a9d206f9b6ede3cd, type: 3}
+  - {fileID: 1962531896970303549, guid: 4c29fe4046dec7b488088bcf098330a7, type: 3}
+  - {fileID: 6556400325197721298, guid: fa6e222b6c573e9408f1499753cafb25, type: 3}
+  - {fileID: 1895183700525136753, guid: 9433434ec3d39894da5c12e6e976e4eb, type: 3}
+  currentLevel: {fileID: 0}
+  startPos: {x: 1, y: 0, z: 0}
+  _startPos: {fileID: 0}
